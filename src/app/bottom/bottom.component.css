@@ -1,25 +1,40 @@
-
-
-.wrap{
-    color: #fff;
-    
-}
-
-.fire{
-    display: inline-block;
-    background:url('../../assets/imgs/fire.png');
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
+*{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-animation: fire 2.5s linear infinite ;
 }
 
-@keyframes fire{
-    0%{background-position: 50%;}
-    50%{background-position: 100%;}
-    100%{background-position:  50% 100%;}
+div{
+    margin-top: 1.2%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.h{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Doom;
+}
+
+.h *{
+    
+    text-shadow: 0 0px 4px #FFF, 0 0px 10px #ff0, 0 0px 20px #ff8000, 0 -18px 40px #F00;
+    font-size: 2.5rem;
+}
+
+.h .doom{
+    
+}
+
+.h .eternal{
+font-family: Turnpike;
+
 }

@@ -30,6 +30,8 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/",
+              "deployUrl": "https://m4d-maestro.github.io/doom/",
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",

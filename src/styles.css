@@ -24,7 +24,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    
     background: #CEC6C6;
     background: -moz-linear-gradient(left, #CEC6C6 0%, #000000 50%, #CEC6C6 100%);
     background: -webkit-linear-gradient(left, #CEC6C6 0%, #000000 50%, #CEC6C6 100%);
