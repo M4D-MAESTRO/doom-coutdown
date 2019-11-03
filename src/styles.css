@@ -29,9 +29,15 @@ body {
     background: -moz-linear-gradient(left, #CEC6C6 0%, #000000 50%, #CEC6C6 100%);
     background: -webkit-linear-gradient(left, #CEC6C6 0%, #000000 50%, #CEC6C6 100%);
     background: linear-gradient(to right, #CEC6C6 0%, #000000 50%, #CEC6C6 100%);
+    background-image: url('./assets/imgs/doom-fundo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: 100%;
 }
 
 h1 {
     font-size: 4em;
 }
+
 

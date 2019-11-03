@@ -2,7 +2,8 @@
 
 .back{
     border: 9px inset #FFFFFF;
-border-radius: 40px;
+    border-radius: 40px;
+    height: 51%;
 }
 
 .dias{
@@ -30,16 +31,26 @@ border-radius: 40px;
 }
 
 .temporizador .separador {
-    color: #FFF;
+    color: #1a1a1a;
     margin: 5px;
     font-size: 4em;
 }
 
 .temporizador .mensagem {
+    font-family: RobotoMono;
     text-align: center;
-    padding-top: 25px;
+    padding: 15px 5px;
     font-size: 1.8em;
     font-weight: bold;
+
+    background-color: #fff;
+    border: 9px outset #1a1a1a;
+    border-radius: 8px;
+
+    width: 90%;
+    height: 60%;
+
+    margin-left: 3%;
 }
 
 .doom{
@@ -55,8 +66,15 @@ border-radius: 40px;
 }
 
 .doom .d{
-    
     font-family: Doom;
     font-size: 2.5em;
     text-shadow: 0 0px 4px #FFF, 0 0px 10px rgb(153, 153, 1), 0 0px 20px #a05102, 0 -18px 40px rgb(116, 1, 1);
+}
+
+.fogo{
+    display: flex;
+    flex-direction: row;
+
+    overflow: hidden;
+    object-fit: cover;
 }
