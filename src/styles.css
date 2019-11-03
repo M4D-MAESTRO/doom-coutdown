@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'RobotoMono';
+    src: url('./assets/fonts/RobotoMono-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Doom';
+    src: url('./assets/fonts/AmazDooMLeft.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Turnpike';
+    src: url('./assets/fonts/Turnpike.ttf') format('truetype');
+}
+
+
+
+* {
+    font-family: 'RobotoMono', monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #CEC6C6;
+    background: -moz-linear-gradient(left, #CEC6C6 0%, #000000 50%, #CEC6C6 100%);
+    background: -webkit-linear-gradient(left, #CEC6C6 0%, #000000 50%, #CEC6C6 100%);
+    background: linear-gradient(to right, #CEC6C6 0%, #000000 50%, #CEC6C6 100%);
+}
+
+h1 {
+    font-size: 4em;
+}
+

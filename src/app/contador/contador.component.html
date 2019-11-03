@@ -1,0 +1,48 @@
+<div class="back">
+
+    <div class="temporizador">
+        <div class="dias">
+            <span class="digito">
+                {{ getDiaDigito1()  }}
+            </span>
+            <span class="digito">
+                {{ getDiaDigito2() }}
+            </span>
+            <span class="digito">
+                {{ getDiaDigito3() }}
+            </span>
+            <span class="doom">
+                <span class="d">D</span>ays...
+            </span>
+        </div>
+
+        <div class="horas">
+            <span class="digito">
+                {{ getHoraDigito1() }}
+            </span>
+            <span class="digito">
+                {{ getHoraDigito2() }}
+            </span>
+
+            <span class="separador">:</span>
+            <span class="digito">
+                {{ getMinutoDigito1() }}
+            </span>
+            <span class="digito">
+                {{ getMinutoDigito2() }}
+            </span>
+
+            <span class="separador">:</span>
+            <span class="digito">
+                {{ getSegundoDigito1() }}
+            </span>
+            <span class="digito">
+                {{ getSegundoDigito2() }}
+            </span>
+
+        </div>
+
+        <div class="mensagem">Countdown to 20th March 2020 at 12:00AM </div>
+
+    </div>
+</div>

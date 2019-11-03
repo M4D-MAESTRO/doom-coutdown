@@ -1,0 +1,32 @@
+*{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.h{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+.h *{
+    
+    text-shadow: 0 0px 4px #FFF, 0 0px 10px #ff0, 0 0px 20px #ff8000, 0 -18px 40px #F00;
+    font-size: 4.5rem;
+}
+
+.h .doom{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+font-family: Doom;
+font-size: 8rem;
+}
+
+.h .eternal{
+font-family: Turnpike;
+
+}
