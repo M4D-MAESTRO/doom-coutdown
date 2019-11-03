@@ -16,30 +16,73 @@
             </span>
         </div>
 
-        <div class="horas">
-            <span class="digito">
-                {{ getHoraDigito1() }}
-            </span>
-            <span class="digito">
-                {{ getHoraDigito2() }}
-            </span>
+        <div class="mobile">
+            <div class="horas">
+                <div class="dias">
+                    <span class="digito">
+                        {{ getHoraDigito1() }}
+                    </span>
+                    <span class="digito">
+                        {{ getHoraDigito2() }}
+                    </span>
+                    <span class="doom">
+                        <span class="d">H</span>ours...
+                    </span>
 
-            <span class="separador">:</span>
-            <span class="digito">
-                {{ getMinutoDigito1() }}
-            </span>
-            <span class="digito">
-                {{ getMinutoDigito2() }}
-            </span>
+                </div>
 
-            <span class="separador">:</span>
-            <span class="digito">
-                {{ getSegundoDigito1() }}
-            </span>
-            <span class="digito">
-                {{ getSegundoDigito2() }}
-            </span>
+                <div class="dias">
+                    <span class="digito">
+                        {{ getMinutoDigito1() }}
+                    </span>
+                    <span class="digito">
+                        {{ getMinutoDigito2() }}
+                    </span>
+                    <span class="doom">
+                        <span class="d">M</span>inutes...
+                    </span>
+                </div>
 
+                <div class="dias">
+                    <span class="digito">
+                        {{ getSegundoDigito1() }}
+                    </span>
+                    <span class="digito">
+                        {{ getSegundoDigito2() }}
+                    </span>
+                    <span class="doom">
+                        <span class="d">S</span>econds...
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="not-mobile">
+            <div class="horas">
+                <span class="digito">
+                    {{ getHoraDigito1() }}
+                </span>
+                <span class="digito">
+                    {{ getHoraDigito2() }}
+                </span>
+
+                <span class="separador">:</span>
+                <span class="digito">
+                    {{ getMinutoDigito1() }}
+                </span>
+                <span class="digito">
+                    {{ getMinutoDigito2() }}
+                </span>
+
+                <span class="separador">:</span>
+                <span class="digito">
+                    {{ getSegundoDigito1() }}
+                </span>
+                <span class="digito">
+                    {{ getSegundoDigito2() }}
+                </span>
+
+            </div>
         </div>
 
         <div class="mensagem">Countdown to 20th March 2020 at 12:00AM </div>

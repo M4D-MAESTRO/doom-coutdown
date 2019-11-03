@@ -1,3 +1,9 @@
+@media screen and (max-width: 800px) {
+     .eternal{
+        font-size: 3rem !important;
+    }
+}
+
 *{
     width: 100%;
     display: flex;
@@ -5,6 +11,10 @@
     justify-content: center;
     align-items: center;
     
+}
+
+.principal{
+    margin-top: 3%;
 }
 
 .h{
